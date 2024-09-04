@@ -1,0 +1,717 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Active Academy</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+
+</head>
+
+<body>
+
+
+    <!--====== PRELOADER ======-->
+
+    <div class="hidden preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== MENU ======-->
+
+    <video autoplay muted loop id="myVideo" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+        <source src="assets/images/170804_C_Lombok_060.mp4" type="video/mp4">
+    </video>
+    <div style="position: absolute; width: 100%; height: 100%; background-color: black; opacity: 0.5;"></div>
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container relative">
+                <div class="row">
+                    <div class="w-full">
+                        <nav class="flex items-center justify-between navbar navbar-expand-lg">
+                            <a class="mr-4 navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" id="logomenu" alt="Logo" style="width:60px;">
+                            </a>
+                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
+                                data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none"
+                                id="navbarOne">
+                                <ul id="nav"
+                                    class="items-center text-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#quienessomos">¿quienes somos?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#actividades">Actividades</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#dondeestamos">¿Donde estamos?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#quehacemos">¿Que hacemos?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#eventos">Eventos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#sobrenosotros">Sobre nosotros</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div
+                                class="absolute right-0 hidden mt-2 mr-24 navbar-btn sm:inline-block lg:mt-0 lg:static lg:mr-0">
+                                <a class="main-btn gradient-btn page-scroll" data-scroll-nav="0" href="#footer"
+                                    rel="nofollow">Contacto</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="home" class="header-hero" style="height: 100vh;">
+            <div class="container">
+                <div class="justify-center row h-full">
+                    <div class="w-full lg:w-2/3">
+                        <div class="pt-32 mb-12 text-center lg:pt-48 header-hero-content">
+                            <h3 class="text-4xl font-light leading-tight text-white header-sub-title wow fadeInUp"
+                                data-wow-duration="1.3s" data-wow-delay="0.2s">Active Academy</h3>
+                            <h2 class="mb-3 text-4xl font-bold text-white header-title wow fadeInUp"
+                                data-wow-duration="1.3s" data-wow-delay="0.5s">Ilusionados por crear deporte, fomentar
+                                la salud y educar personas...</h2>
+                            <p class="mb-8 text-white text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                                Active Academy -Sport & Values-
+                            </p>
+                            <a class="main-btn gradient-btn gradient-btn-2 wow fadeInUp page-scroll"
+                                href="#quienessomos" data-wow-duration="1.3s" data-wow-delay="1.1s">¿Quienes somos?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-1" class="particles"></div>
+        </div>
+    </header>
+
+    <!--====== ¿Quienes Somos? ======-->
+
+    <section id="quienessomos" class="relative pt-20 about-area">
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">¿Quienes somos?</h3>
+                        </div>
+                        <p class="mb-8">
+                            Active Academy nace de la ilusión por impulsar el
+                            deporte y los valores al que éste acompañan, así como
+                            su beneficio para la sociedad en general,
+                            centrándonos especialmente en la población joven,a
+                            la cual queremos hacer partícipe y protagonista de
+                            esta aventura.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/logo.png" class="m-auto" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-shape-1">
+            <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+
+    <!--====== Valores ======-->
+
+    <section id="valores" class="relative pt-20 about-area">
+        <div class="about-shape-2">
+            <img src="assets/images/about-shape-2.svg" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2 lg:order-last">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">Valores</h3>
+                            <h5 class="title" style="font-size: 3vh;">#Vive #Experimenta #Respeta</h5>
+                        </div>
+                        <p>Cultura del esfuerzo, perseverancia y trabajo en equipo a
+                            través de situaciones de juego tanto individuales como
+                            colectivas, serán nuestros pilares básicos para el
+                            desarrollo personal íntegro, el autoconocimiento y el respeto por los que nos rodean.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:order-first">
+                    <div class="mx-4 mt-8 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/valores.jpg" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== ACTIVIDADES ======-->
+
+    <section id="actividades" class="testimonial-area pt-120">
+        <div class="container">
+            <div class="justify-center row">
+                <div class="w-full lg:w-2/3">
+                    <div class="pb-10 text-center section-title">
+                        <div class="m-auto line"></div>
+                        <h3 class="title">Actividades</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row testimonial-active wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.8s">
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">CATÁLOGO</h5>
+                        </div>
+                        <a href="assets/images/TRIPTICO ACTIVIDADES 2021-2022 .pdf">
+                            <img class="w-full" style="height: 200px;" src="assets/images/catalogo.jpg"
+                                alt="Sunset in the mountains">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Art Attack</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/ArtAttackF.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Badminton</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/badminton.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Tenis</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/tenis.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Just Dance</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/baile.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Canto</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/canto.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Desarrollo de videojuegos</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/videojuegos.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Piano</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/piano.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Skate</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/sjate.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Patinaje</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/patinaje.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Baloncesto</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/baloncesto.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Step</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/step.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Guitarra</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/guitarra.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Fútbol</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/futbol.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Dibujo y Arte</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/DibujoyArtesFi.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Bailes modernos</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/BailesModernosF.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Voley</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/voley.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--====== ¿Donde estamos? ======-->
+
+    <section id="dondeestamos" class="relative pt-20 about-area">
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">¿Donde estamos?</h3>
+                            <h5 class="title" style="font-size: 3vh;">+de 15 #Colegios #institutos #Casas
+                                juventud #Ayuntamientos</h5>
+                        </div>
+                        <p>A lo largo de los últimos años hemos desarrollado
+                            nuestra actividad en diferentes instituciones
+                            colaborando con unos 15 centros de carácter público y
+                            concertado. Dando servicio tanto directamente como a
+                            través del Banco de Actividades del Ayuntamiento de
+                            Zaragoza.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/istockphoto-1311312038-612x612.jpg" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-shape-1">
+            <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+
+    <!--====== ¿Que Hacemos? ======-->
+
+    <section id="quehacemos" class="relative pt-20 about-area">
+        <div class="about-shape-2">
+            <img src="assets/images/about-shape-2.svg" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2 lg:order-last">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">¿Que hacemos?</h3>
+                            <h5 class="title" style="font-size: 3vh;">Planificación + Desarrollo Actividades</h5>
+                        </div>
+                        <p>Apostamos por actividades que generen hábitos
+                            saludables y activos, desarrollando las diferentes
+                            destrezas e inteligencias de la persona, impulsando las
+                            fortalezas de cada uno de los participantes. Con grupos
+                            de edades comprendidas entre 3-18 años, así como
+                            actividades impartidas para adultos.
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:order-first">
+                    <div class="mx-4 mt-8 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/quehacemos.png" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== EVENTOS ======-->
+
+    <section id="eventos" class="testimonial-area pt-120">
+        <div class="container">
+            <div class="justify-center row">
+                <div class="w-full lg:w-2/3">
+                    <div class="pb-10 text-center section-title">
+                        <div class="m-auto line"></div>
+                        <h3 class="title">Eventos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="w-full lg:w-1/2 lg:order-last">
+                        <div class="mx-4 about-content wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <div class="mb-4 section-title">
+                                <!--Titulo-->
+                                <h3 class="title">ARAGON SCHOOL CUP</h3>
+                            </div>
+                            <!--Desctipción-->
+                            <p>
+                                “ARAGON SCHOOL CUP” es un nuevo formato donde los equipos en representación de cada
+                                colegio cobran
+                                todo el protagonismo, pudiendo alzarse como el mejor colegio o instituto de Aragón en
+                                relación a este deporte.
+                                Es un proyecto ilusionante, lleno de valores, que busca devolver el protagonismo a esos
+                                equipos de siempre,
+                                formados entre clases, haciendo sentir la unión de los colegios y la emoción de los
+                                alumnos por representarlos,
+                                dándoles la posibilidad de disfrutar y vivenciar un ambiente deportivo diferente.
+                            </p>
+                            <!--enlace-->
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 lg:order-first">
+                        <div class="mx-4  text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <!--Imagen-->
+                            <img src="assets/images/ARAGONSCHOOLCUP.jpg" style="height: 450px; margin:auto" alt="about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--EVENTO CON IMAGEN A LA DERECHA-->
+            <!--
+            <div class="container">
+                <div class="row">
+                    <div class="w-full lg:w-1/2 lg:order-last">
+                        <div class="mx-4 about-content wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <div class="mb-4 section-title">
+                                <h3 class="title">ARAGON SCHOOL CUP</h3>
+                            </div>
+                            <p>
+                                “ARAGON SCHOOL CUP” es un nuevo formato donde los equipos en representación de cada
+                                colegio cobran
+                                todo el protagonismo, pudiendo alzarse como el mejor colegio o instituto de Aragón en
+                                relación a este deporte.
+                                Es un proyecto ilusionante, lleno de valores, que busca devolver el protagonismo a esos
+                                equipos de siempre,
+                                formados entre clases, haciendo sentir la unión de los colegios y la emoción de los
+                                alumnos por representarlos,
+                                dándoles la posibilidad de disfrutar y vivenciar un ambiente deportivo diferente.
+                            </p>
+                            <a href="ENLACE" class="main-btn gradient-btn"
+                                style="margin-top: 20px;">Enlace</a>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 lg:order-first">
+                        <div class="mx-4  text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <img src="IMAGEN" style="height: 450px; margin:auto" alt="about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            <!--EVENTO CON IMAGEN A LA DERECHA-->
+            <!--
+            <div class="container">
+                <div class="row">
+                    <div class="w-full lg:w-1/2">
+                        <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <div class="mb-4 section-title">
+                                <h3 class="title">Nombre del evento</h3>
+                            </div>
+                            <p>
+                                descripcion
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cumque reiciendis
+                                voluptatibus eum, aliquid distinctio ad officia eveniet illo perferendis alias,
+                                nisi odit officiis accusamus exercitationem assumenda. Repellendus, possimus
+                                voluptatibus!
+                            </p>
+                            <a href="ENLACE" class="main-btn gradient-btn"
+                                style="margin-top: 20px;">Enlace</a>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <img src="IMAGEN" alt="about" style="height: 450px; margin:auto" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </section>
+    <!--====== EJEMPLO CON VIDEO ======-->
+    <!--
+    <section id="ejemplovideo" class="pt-20 video-counter">
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2">
+                    <div class="pl-0 mt-12 counter-wrapper lg:pl-16 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0.8s">
+                        <div class="counter-content">
+                            <div class="mb-8 section-title">
+                                <div class="line"></div>
+                                <h3 class="title">Ejemplo con video</span></h3>
+                            </div>
+                            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="relative pb-8 mt-12 video-content wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="relative mr-6 rounded-lg shadow-md video-wrapper">
+                            <div class="video-image">
+                                <video autoplay muted loop id="myVideeo">
+                                    <source src="assets/images/170804_C_Lombok_060.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+-->
+    <!--====== Sobre NOSOTROS ======-->
+
+    <section id="sobrenosotros" class="team-area pt-120">
+        <div class="container">
+            <div class="justify-center row">
+                <div class="w-full lg:w-2/3">
+                    <div class="pb-8 text-center section-title">
+                        <div class="m-auto line"></div>
+                        <h3 class="title">Sobre nosotros</h3>
+                        <p class="mt-10">
+                            La familia Active Academy está compuesta por Sergio y Jorge, apasionados por la enseñanza,
+                            de
+                            vocación profesores y actualmente en activo,
+                            encargándose de la planificación y gestión
+                            de las actividades que promueve Active Academy.
+                            El resto del equipo está compuesto por monitores
+                            y entrenadores titulados y con gran experiencia en cada uno de sus ámbitos, siendo uno de
+                            los pilares fundamentales el trato excelente y la cercanía con las personas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="justify-center row">
+                <div class="w-full sm:w-2/3 lg:w-1/3">
+                    <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="relative team-image">
+                            <img class="w-full" src="assets/images/Usuario-Vacio.png" alt="Team">
+                        </div>
+                        <div class="p-8">
+                            <h5 class="mb-1 text-xl font-bold text-gray-900">Sergio Martínez & Jorge Blasco</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!--====== FOOTER ======-->
+
+    <footer class="relative z-10 footer-area pt-120" style="margin-top: -120px;">
+        <div class="footer-bg" style="background-image: url(assets/images/footer-bg.svg);"></div>
+        <div class="container">
+            <div class="footer-widget pb-120" style="margin-top: 350px;">
+                <div class="row">
+                    <div class="w-4/5 md:w-3/5 lg:w-2/6">
+                        <div id="footer" class="mt-12 footer-about wow fadeIn" data-wow-duration="1s"
+                            data-wow-delay="0.2s">
+                            <a class="inline-block mb-8 logo" href="index.html">
+                                <img src="assets/images/logo.png" alt="logo" class="w-40">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="w-4/5 sm:w-2/3 md:w-3/5 lg:w-2/6">
+                        <div class="row">
+                            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
+                                <div class="mt-12 link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                                    <div class="footer-title">
+                                        <h4 class="mb-8 text-2xl font-bold text-white">Recursos</h4>
+                                    </div>
+                                    <ul class="link">
+                                        <li><a href="assets/images/infografia.png">INFOGRAFÍA</a></li>
+                                        <li><a href="assets/images/TRIPTICO ACTIVIDADES 2021-2022 .pdf">OFERTA
+                                                ACTIVIDADES</a></li>
+                                        <li><a href="https://instagram.com/activeacademy_zgz">INSTAGRAM</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4/5 sm:w-1/3 md:w-2/5 lg:w-2/6">
+                        <div class="mt-12 footer-contact wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                            <div class="footer-title">
+                                <h4 class="mb-8 text-2xl font-bold text-white">Contacto</h4>
+                            </div>
+                            <ul class="contact">
+                                <li>678998270</li>
+                                <li>635802619</li>
+                                <li>activeacademyzgz@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="particles-2" class="particles"></div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-3.5.1-min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Plugins js ======-->
+    <script src="assets/js/plugins.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Particles js ======-->
+    <script src="assets/js/particles.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
